@@ -31,3 +31,4 @@ public class Mutiple_Inheritance {
 	}
 
 }
+//hjhfhnv;nncnnnnn
