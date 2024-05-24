@@ -6,10 +6,8 @@ final class  Employee1{
 		System.out.println(a);
 	}
 }
-//class Manager extends Employee{
-//	
-//}
-public class Final_class {
+
+public class Final_class  {
 
 	public static void main(String[] args) {
 		Employee1 employee = new Employee1();

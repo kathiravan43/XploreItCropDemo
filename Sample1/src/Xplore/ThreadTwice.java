@@ -20,8 +20,16 @@ public class ThreadTwice extends Thread {
 	public static void main(String[] args) {
 		
 		ThreadTwice thread = new ThreadTwice();
+		ThreadTwice thread2 = new ThreadTwice();
+		System.out.println("Name of the Thread1 : "+thread.getName());
+		thread.setPriority(MAX_PRIORITY);
 		thread.run();
 		thread.start();
+		thread.run1();
+		System.out.println("Name of the Thread 2 : "+thread2.getPriority()+"   "+thread2.getName());
+		thread2.setName("Apple");
+		System.out.println("After changing :"+thread2.getName());
+		System.out.println("Priority of the tread 1 :"+thread.getPriority());
 
 	}
 
