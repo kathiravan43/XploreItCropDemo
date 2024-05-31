@@ -21,7 +21,7 @@ class FileWriterDemo{
 		
 	}
 }
-class FileReaderDemo extends FileWriterDemo{
+class FileReaderDemo {
 	public static void toRead() {
 		try {
 		File file = new File(FileWriterDemo.fileName);
